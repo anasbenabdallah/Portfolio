@@ -1,0 +1,23 @@
+.particle-trail {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.particle {
+  position: absolute;
+  width: 10px; /* Adjust the width */
+  height: 10px; /* Adjust the height */
+  background-color: #5b3931; /* Change the background color to a firecracker-like color */
+  border-radius: 50%; /* You can use a different shape if desired, like square or triangle */
+  transition: opacity 0.5s, transform 0.5s;
+  transform-origin: center;
+  opacity: 0.7; /* Adjust the opacity */
+  box-shadow: 0 0 10px rgba(255, 87, 51, 0.5); /* Add a subtle shadow effect */
+}
+
+/* Add any animation or keyframes here */
