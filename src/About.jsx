@@ -19,8 +19,10 @@ function About() {
     "Bootstrap CSS",
     "Python",
     "SQL",
-    "Django",
+    "NoSQL",
+    "Devops",
     "Angular",
+    "Docker",
   ];
 
   const learning = [
@@ -28,7 +30,7 @@ function About() {
     "ThreeJS",
     "Tensor Flow",
     "Framer Motion",
-    "Motion One",
+    "Kubernets",
   ];
 
   return (

@@ -14,7 +14,7 @@ function Navbar() {
   useEffect(() => {
     const typewriter = new Typewriter(typewriterRef.current, {
       strings: [
-        "I am a Computer Science Student",
+        "I am a software engineer Student",
         "I like coding",
         "Keep scrolling!",
       ],
@@ -49,14 +49,14 @@ function Navbar() {
         target="_blank"
         className="icons"
       >
-        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        <FontAwesomeIcon icon={faLinkedin} size="4x" />
       </a>
       <a
         href="https://github.com/anasbenabdallah"
         target="_blank"
         className="icons"
       >
-        <FontAwesomeIcon icon={faGithub} size="2x" />
+        <FontAwesomeIcon icon={faGithub} size="4x" />
       </a>
 
       <ul className="nav-links">
