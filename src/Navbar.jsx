@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import "./CSS Files/Navbar.css";
 import Typewriter from "typewriter-effect/dist/core";
 import { animateScroll as scroll } from "react-scroll";
-import Pdf from "./Images/MyCv.pdf";
+import Pdf from "./Images/Anas-CV.pdf (1).pdf";
 import MouseParticleTrail from "./MouseParticleTrail"; // Update the path as needed
 
 function Navbar() {
